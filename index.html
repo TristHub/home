@@ -1,12 +1,9 @@
-<script>
-    function PlaySound(melody) {
-        alert("On Press of "+melody);
-        var path = "path\\to\\melody\\"
-        var snd = new Audio(path + melody + ".mp3");
-        snd.play();
-    }
-</script>
+<h1>The world of TgamerCodez!</h1>
 
-button onclick="PlaySound('melody1')">Click Me!</button>
-<button onclick="PlaySound('melody2')">Or Me!/button>
+<p><i>Press the "Play / Pause Button" To Hear Some Music!</i></p>
+
+<audio id="nyan" src="https://designshack.net/tutorialexamples/html5-audio-player/media/evidence-song.mp3" preload="metadata" type="audio/mpeg">
+   Your browser does not support the audio element.
+</audio>
+<button class="btn" id="nyan-btn">Play / Pause</button>
     
